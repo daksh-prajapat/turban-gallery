@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turban gallery</title>
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts - Normal Load -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rozha+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome - Normal Load -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS - Normal Load -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <!-- Top Ticker -->
+        <div class="header-ticker" id="headerTicker">
+            <div class="ticker-wrapper">
+                <div class="ticker-track">
+                    <span>रघुकुल रीत सदा चली आई | प्राण जाई पर वचन न जाई ||</span>
+                    <span>परहित बस जिन्ह के मन माहीं। तिन्ह कहुँ जग दुर्लभ कछु नाहीं ||</span>
+                    <span>भावार्थ : जिन लोगों के मन में दूसरों का हित होता है, उनके लिए दुनिया में कुछ भी मुश्किल नहीं
+                        है |</span>
+                    <span>पर हित सरिस धर्म नहिं भाई। पर पीड़ा सम नहिं अधमाई ||</span>
+                    <span>निर्नय सकल पुरान बेद कर। कहेउँ तात जानहिं कोबिद नर ||</span>
+                    <span>भावार्थ : हे भाई! दूसरों की भलाई के समान कोई धर्म नहीं है और दूसरों को दुःख पहुँचाने के समान
+                        कोई नीचता (पाप) नहीं है |</span>
+                    <span>रघुकुल रीत सदा चली आई | प्राण जाई पर वचन न जाई ||</span>
+                    <span>परहित बस जिन्ह के मन माहीं। तिन्ह कहुँ जग दुर्लभ कछु नाहीं ||</span>
+                    <span>भावार्थ : जिन लोगों के मन में दूसरों का हित होता है, उनके लिए दुनिया में कुछ भी मुश्किल नहीं
+                        है |</span>
+                    <span>पर हित सरिस धर्म नहिं भाई। पर पीड़ा सम नहिं अधमाई ||</span>
+                    <span>निर्नय सकल पुरान बेद कर। कहेउँ तात जानहिं कोबिद नर ||</span>
+                    <span>भावार्थ : हे भाई! दूसरों की भलाई के समान कोई धर्म नहीं है और दूसरों को दुःख पहुँचाने के समान
+                        कोई नीचता (पाप) नहीं है |</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class="header-main" id="headerMain">
+            <div class="header-container">
+                <div class="header-logo">
+                    <img src="./images/logo.png" alt="Logo" id="logoImg" width="78" height="71" loading="lazy">
+                </div>
+
+                <nav class="header-nav" id="navMenu">
+                    <ul>
+                        <li><a href="#">
+                                <p>हमारा परिचय</p>
+                            </a></li>
+                        <li><a href="#">नेतृत्व</a></li>
+                        <li><a href="#">गतिविधियाँ</a></li>
+                        <li><a href="#">फोटो संग्रह</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-right">
+                    <button class="btn-enquire">हमारे साथ जुड़ें</button>
+                    <button class="btn-enquire-1">हमसे संपर्क करें</button>
+                    <div class="hamburger-btn" id="hamburgerBtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+        <nav class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-header">
+                <img src="./images/logo.png" alt="Logo" class="mobile-nav-logo" width="78" height="71" loading="lazy">
+                <button class="mobile-nav-close" id="mobileNavClose">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <ul class="mobile-nav-list">
+                <li><a href="#">हमारा परिचय</a></li>
+                <li><a href="#">नेतृत्व</a></li>
+                <li><a href="#">गतिविधियाँ</a></li>
+                <li><a href="#">फोटो संग्रह</a></li>
+                <li><a href="#">हमारे साथ जुड़ें</a></li>
+                <li><a href="#">हमसे संपर्क करें</a></li>
+            </ul>
+            <div class="mobile-nav-footer">
+                <a href="#" class="mobile-nav-enquire">आज ही जुड़ें <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section - New Page (Height 521px) -->
+    <section class="hero-section-new" id="heroSectionNew">
+        <div class="hero-slides">
+            <!-- Slide 1 -->
+            <div class="hero-slide active" style="background-image: url('./images/hero.webp');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-vision-icon">
+                            <img src="./images/vision-1.png" alt="Vision Icon" width="180" height="46" loading="lazy">
+                        </div>
+                        <h1 class="hero-title-default">समाज निर्माण के हमारे <span class="hero-highlight">लक्ष्य</span>
+                        </h1>
+                        <p class="hero-description-default">हिंदू समाज के प्रत्येक घर तक भगवान श्रीराम के आदर्शों,
+                            चरित्र एवं रामायण के संदेश को पहुँचाना।</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide" style="background-image: url('./images/hero.webp');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-vision-icon">
+                            <img src="./images/vision-1.png" alt="Vision Icon" width="180" height="46" loading="lazy">
+                        </div>
+                        <h1 class="hero-title-other">समाज निर्माण के हमारे <span class="hero-highlight">लक्ष्य</span>
+                        </h1>
+                        <p class="hero-description-other">हिंदू समाज के प्रत्येक घर तक भगवान श्रीराम के आदर्शों, चरित्र
+                            एवं रामायण के संदेश को पहुँचाना।</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide" style="background-image: url('./images/hero.webp');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-vision-icon">
+                            <img src="./images/vision-1.png" alt="Vision Icon" width="180" height="46" loading="lazy">
+                        </div>
+                        <h1 class="hero-title-other">समाज निर्माण के हमारे <span class="hero-highlight">लक्ष्य</span>
+                        </h1>
+                        <p class="hero-description-other">हिंदू समाज के प्रत्येक घर तक भगवान श्रीराम के आदर्शों, चरित्र
+                            एवं रामायण के संदेश को पहुँचाना।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+    </section>
+
+
+
+    <section class="news-section">
+        <div class="news-container">
+
+            <div class="news-grid">
+
+                <!-- Card -->
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="./images/g-1.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>घर-घर राम, हर घर रामायण अभियान</h3>
+                        <p>
+                            हिंदू समाज के प्रत्येक घर तक भगवान श्रीराम के आदर्शों, चरित्र एवं रामायण के संदेश को
+                            पहुँचाना।
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-2.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>सनातन शिक्षा एवं संस्कार</h3>
+                        <p>
+                            हिंदू समाज की युवा पीढ़ी को रामचरितमानस, श्रीमद्भगवद्गीता एवं अन्य सनातन धार्मिक ग्रंथों का
+                            ज्ञान प्रदान करना।
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Copy Same Card -->
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-3.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>हिंदू बहन-बेटियों के सम्मान एवं सुरक्षा हेतु जागरूकता</h3>
+                        <p>
+                            हिंदू समाज की बहन-बेटियों के सम्मान, सुरक्षा एवं आत्मविश्वास को सशक्त बनाने के लिए कार्य
+                            करना।
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-4.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>निर्धन हिंदू कन्याओं के विवाह में सहयोग</h3>
+                        <p>
+                            आर्थिक रूप से कमजोर हिंदू परिवारों की बेटियों के विवाह में सहयोग एवं सहायता प्रदान करना।
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-5.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>सामाजिक जागरूकता एवं संरक्षण अभियान</h3>
+                        <p>
+                            हिंदू समाज को विभिन्न सामाजिक चुनौतियों एवं समस्याओं के प्रति जागरूक करना तथा उनके समाधान
+                            हेतु कार्य करना।
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-6.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>हिंदू युवा आत्मनिर्भरता अभियान</h3>
+                        <p>
+                            हिंदू युवाओं को आत्मनिर्भर बनाने हेतु प्रेरणादायक, कौशल विकास एवं प्रशिक्षण कार्यक्रम आयोजित
+                            करना।
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-7.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3> शिक्षा सहयोग योजना</h3>
+                        <p>
+                            आर्थिक रूप से कमजोर हिंदू परिवारों के बच्चों को उच्च शिक्षा प्राप्त करने में सहयोग प्रदान
+                            करना।
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-8.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>सामाजिक समरसता एवं संगठन सुदृढ़ीकरण</h3>
+                        <p>
+                            हिंदू समाज में एकता, समरसता एवं भाईचारे को बढ़ावा देना तथा भेदभाव एवं कुरीतियों के विरुद्ध
+                            कार्य करना।
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-9.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>जीव सेवा अभियान</h3>
+                        <p>
+                            हिंदू समाज के सहयोग से पशु-पक्षियों के लिए चारा, दाना एवं पानी की व्यवस्था करना।
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-10.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>पर्यावरण संरक्षण एवं संवर्धन</h3>
+                        <p>
+                            हिंदू समाज को प्रकृति संरक्षण, वृक्षारोपण, जल संरक्षण एवं पर्यावरण संवर्धन के प्रति प्रेरित
+                            एवं संगठित करना।
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/g-11.png" alt="">
+                    </div>
+
+                    <div class="news-content">
+                        <h3>राष्ट्र, धर्म एवं संस्कृति जागरण</h3>
+                        <p>
+                            हिंदू समाज के युवा भाई-बहनों में राष्ट्रभक्ति, सनातन संस्कृति, सामाजिक उत्तरदायित्व एवं
+                            नैतिक मूल्यों का विकास करना।
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ============================================================ -->
+    <!-- JOURNEY SECTION -->
+    <!-- ============================================================ -->
+    <section class="journey-section" id="journeySection">
+        <div class="journey-container">
+            <div class="journey-left">
+                <img src="./images/flag.png" alt="flag" class="journey-flag-img" width="349.6" height="386.51"
+                    loading="lazy" />
+            </div>
+            <div class="journey-right">
+                <div class="journey-icon">
+                    <img src="./images/vision-1.png" alt="icon" width="180.35" height="46.75" loading="lazy" />
+                </div>
+                <h2 class="journey-heading">
+                    सेवा और परिवर्तन की यात्रा में <span>शामिल</span> हों
+                </h2>
+                <p class="journey-desc">
+                    भारत जागृति संघ से जुड़ें और सेवा, करुणा एवं सामुदायिक प्रयासों के माध्यम से एक मजबूत, एकजुट और
+                    आत्मनिर्भर भारत के निर्माण में अपना योगदान दें।
+                </p>
+                <button class="journey-btn">हमारे साथ जुड़ें</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- FRAME 550 SECTION -->
+    <!-- ============================================================ -->
+    <section class="frame-550-section">
+        <img src="./images/line.png" alt="Frame 550" class="frame-550-img" width="100%" height="54" loading="lazy" />
+    </section>
+
+    <!--==============================
+Footer Start
+===============================-->
+
+    <footer class="footer">
+
+        <div class="footer-overlay"></div>
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+
+                <div class="footer-logo">
+                    <img src="images/f-img.png" alt="Logo" width="91" height="83" loading="lazy">
+                </div>
+
+                <p class="footer-text">
+                    भारत जागृति संघ एक समर्पित सामाजिक संगठन है, जो लोगों को
+                    सशक्त बनाने, भारत की समृद्ध सांस्कृतिक विरासत को संरक्षित
+                    करने और सार्थक सामुदायिक पहलों के माध्यम से राष्ट्र निर्माण
+                    में योगदान देने के लिए प्रतिबद्ध है।
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <span class="footer-heading">संस्थान</span>
+
+                <ul>
+                    <li><a href="#">• हमारा परिचय</a></li>
+                    <li><a href="#">• सेवाएं</a></li>
+                    <li><a href="#">• गतिविधियां</a></li>
+                    <li><a href="#">• फोटो गैलरी</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-links">
+
+                <span class="footer-heading">हमारे लक्ष्य</span>
+
+                <ul>
+                    <li><a href="#">• गरीब कल्याण</a></li>
+                    <li><a href="#">• शहर एवं राष्ट्र जागरण अभियान</a></li>
+                    <li><a href="#">• शिक्षा बढ़ाओ योजना</a></li>
+                    <li><a href="#">• राष्ट्र, धर्म एवं संस्कृति जागरण</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-contact">
+
+                <span class="footer-heading">कार्यालय का पता</span>
+
+                <p class="address">
+                    प्रधान कार्यालय, प्लॉट नंबर 252, द्वितीय बी ब्लॉक C,
+                    हाथोज धाम पुलिस स्टेशन के सामने, विकास विहार, जयपुर
+                </p>
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div>
+                        <span>हमसे संपर्क करें</span>
+                        <a href="tel:9982040123">9982 040 123</a>
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <span>ईमेल</span>
+                        <a href="mailto:sales@turbanbuilders.com">sales@turbanbuilders.com</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-social">
+
+                <span>सोशल मीडिया पर जुड़े</span>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--==============================
+Footer End
+===============================-->
+
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // TICKER
+            const tickerTrack = document.querySelector(".ticker-track");
+            if (tickerTrack) {
+                const originalContent = tickerTrack.innerHTML;
+                tickerTrack.innerHTML = originalContent + originalContent + originalContent;
+                let tickerPosition = 0;
+                const tickerSpeed = 0.5;
+                function animateTicker() {
+                    tickerPosition += tickerSpeed;
+                    const scrollWidth = tickerTrack.scrollWidth / 3;
+                    if (tickerPosition >= scrollWidth) {
+                        tickerPosition = 0;
+                    }
+                    tickerTrack.style.transform = `translateX(-${tickerPosition}px)`;
+                    requestAnimationFrame(animateTicker);
+                }
+                animateTicker();
+            }
+
+            // HERO SLIDER
+            const slides = document.querySelectorAll(".hero-slide");
+            const dots = document.querySelectorAll(".dot");
+            let currentSlide = 0;
+            let slideInterval;
+
+            function goToSlide(index) {
+                for (var i = 0; i < slides.length; i++) {
+                    slides[i].classList.remove("active");
+                    dots[i].classList.remove("active");
+                }
+                slides[index].classList.add("active");
+                dots[index].classList.add("active");
+                currentSlide = index;
+            }
+
+            function nextSlide() {
+                var next = (currentSlide + 1) % slides.length;
+                goToSlide(next);
+            }
+
+            function startSlider() {
+                if (slideInterval) clearInterval(slideInterval);
+                slideInterval = setInterval(nextSlide, 3500);
+            }
+
+            function resetSlider() {
+                clearInterval(slideInterval);
+                startSlider();
+            }
+
+            for (var j = 0; j < dots.length; j++) {
+                (function (index) {
+                    dots[index].addEventListener("click", function () {
+                        goToSlide(index);
+                        resetSlider();
+                    });
+                })(j);
+            }
+
+            startSlider();
+
+            // MOBILE NAV
+            const hamburgerBtn = document.getElementById("hamburgerBtn");
+            const mobileNav = document.getElementById("mobileNav");
+            const mobileNavOverlay = document.getElementById("mobileNavOverlay");
+            const mobileNavClose = document.getElementById("mobileNavClose");
+
+            function openMobileNav() {
+                mobileNav.classList.add("open");
+                mobileNavOverlay.classList.add("show");
+                document.body.style.overflow = "hidden";
+            }
+
+            function closeMobileNav() {
+                mobileNav.classList.remove("open");
+                mobileNavOverlay.classList.remove("show");
+                document.body.style.overflow = "";
+            }
+
+            if (hamburgerBtn) {
+                hamburgerBtn.addEventListener("click", openMobileNav);
+            }
+            if (mobileNavClose) {
+                mobileNavClose.addEventListener("click", closeMobileNav);
+            }
+            if (mobileNavOverlay) {
+                mobileNavOverlay.addEventListener("click", closeMobileNav);
+            }
+
+            // SCROLL EFFECT
+            const headerMain = document.getElementById("headerMain");
+            const headerTicker = document.getElementById("headerTicker");
+            let isScrolled = false;
+
+            window.addEventListener("scroll", function () {
+                const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (currentScroll > 1 && !isScrolled) {
+                    isScrolled = true;
+                    if (headerTicker) {
+                        headerTicker.style.transform = "translateY(-100%)";
+                        headerTicker.style.opacity = "0";
+                        headerTicker.style.transition = "transform 0.4s ease, opacity 0.4s ease";
+                    }
+                    headerMain.style.position = "fixed";
+                    headerMain.style.top = "0";
+                    headerMain.style.left = "0";
+                    headerMain.style.width = "100%";
+                    headerMain.style.zIndex = "999";
+                    headerMain.style.boxShadow = "0 4px 30px rgba(0,0,0,0.3)";
+                }
+                else if (currentScroll <= 1 && isScrolled) {
+                    isScrolled = false;
+                    if (headerTicker) {
+                        headerTicker.style.transform = "translateY(0)";
+                        headerTicker.style.opacity = "1";
+                        headerTicker.style.transition = "transform 0.4s ease, opacity 0.4s ease";
+                    }
+                    headerMain.style.position = "relative";
+                    headerMain.style.top = "auto";
+                    headerMain.style.left = "auto";
+                    headerMain.style.width = "100%";
+                    headerMain.style.zIndex = "auto";
+                    headerMain.style.boxShadow = "none";
+                }
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
