@@ -511,9 +511,10 @@ body {
     color: rgba(255, 255, 255, 0.9);
     display: block;
     margin-top: 1px;
-    max-width: 700px;
+    max-width: 550px;
     margin-left: auto;
     margin-right: auto;
+    letter-spacing: 0;
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -543,11 +544,12 @@ body {
     color: #FFFFFF;
     display: block;
     margin-top: 1px;
-    max-width: 700px;
+    max-width: 550px;
     margin-left: auto;
     margin-right: auto;
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
     position: relative;
+    letter-spacing: 0;
     z-index: 2;
 }
 
@@ -574,7 +576,7 @@ body {
 /* Hero Dots */
 .hero-section-new .hero-dots {
     position: absolute;
-    bottom: 25px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
